@@ -7,4 +7,4 @@ RUN apt update \
     && wget https://www.php-proxy.com/download/php-proxy.zip -O /tmp/php-proxy.zip \
     && unzip /tmp/php-proxy.zip -d /var/www/html/ \
     && rm /tmp/*.zip \
-	  && chown -R www-data:www-data /var/www/html 
+    && chown -R www-data:www-data /var/www/html 
